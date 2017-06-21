@@ -7,16 +7,37 @@
 //
 
 #import "AppDelegate.h"
+#import "IPhoneFactory.h"
+#import "ChinaFactory.h"
+#import "AppleFactory.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, assign) BOOL isThirdWorld;
 
 @end
 
 @implementation AppDelegate
 
+- (IPhoneFactory *)getFactory {
+    
+    if (_isThirdWorld) {
+        return [[ChinaFactory alloc] init];
+    }
+    
+    return [[AppleFactory alloc] init];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _isThirdWorld = true;
+    IPhoneFactory *factory = [self getFactory];
+    GenericIPad *ipad = factory.getIPad;
+    GenericIPhone *iphone = factory.getIPhone;
+    
+    NSLog(@"IPad named = %@, osname = %@, screensize = %@", ipad.productName, ipad.osName, ipad.screenSize.stringValue);
+    NSLog(@"IPhone named = %@, osname = %@", iphone.productName, iphone.osName);
+    
     return YES;
 }
 

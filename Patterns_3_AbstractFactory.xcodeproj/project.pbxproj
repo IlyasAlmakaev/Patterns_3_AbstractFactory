@@ -13,6 +13,15 @@
 		28E6ACEC1EFB2B4A00A7D92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6ACEA1EFB2B4A00A7D92A /* Main.storyboard */; };
 		28E6ACEE1EFB2B4A00A7D92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E6ACED1EFB2B4A00A7D92A /* Assets.xcassets */; };
 		28E6ACF11EFB2B4A00A7D92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6ACEF1EFB2B4A00A7D92A /* LaunchScreen.storyboard */; };
+		28E6ACFA1EFB2B6B00A7D92A /* IPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6ACF91EFB2B6B00A7D92A /* IPhoneFactory.m */; };
+		28E6ACFD1EFB2B9F00A7D92A /* GenericIPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6ACFC1EFB2B9F00A7D92A /* GenericIPad.m */; };
+		28E6AD001EFB2C0800A7D92A /* GenericIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6ACFF1EFB2C0800A7D92A /* GenericIPhone.m */; };
+		28E6AD031EFB2D3F00A7D92A /* AppleIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD021EFB2D3F00A7D92A /* AppleIPhone.m */; };
+		28E6AD061EFB2DDC00A7D92A /* AppleIPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD051EFB2DDC00A7D92A /* AppleIPad.m */; };
+		28E6AD091EFB2E6400A7D92A /* ChinaPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD081EFB2E6400A7D92A /* ChinaPad.m */; };
+		28E6AD0C1EFB2ED600A7D92A /* ChinaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD0B1EFB2ED600A7D92A /* ChinaPhone.m */; };
+		28E6AD0F1EFB2F2600A7D92A /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD0E1EFB2F2600A7D92A /* AppleFactory.m */; };
+		28E6AD121EFB303600A7D92A /* ChinaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD111EFB303600A7D92A /* ChinaFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,24 @@
 		28E6ACED1EFB2B4A00A7D92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E6ACF01EFB2B4A00A7D92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E6ACF21EFB2B4A00A7D92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E6ACF81EFB2B6B00A7D92A /* IPhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneFactory.h; sourceTree = "<group>"; };
+		28E6ACF91EFB2B6B00A7D92A /* IPhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneFactory.m; sourceTree = "<group>"; };
+		28E6ACFB1EFB2B9F00A7D92A /* GenericIPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericIPad.h; sourceTree = "<group>"; };
+		28E6ACFC1EFB2B9F00A7D92A /* GenericIPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericIPad.m; sourceTree = "<group>"; };
+		28E6ACFE1EFB2C0800A7D92A /* GenericIPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericIPhone.h; sourceTree = "<group>"; };
+		28E6ACFF1EFB2C0800A7D92A /* GenericIPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericIPhone.m; sourceTree = "<group>"; };
+		28E6AD011EFB2D3F00A7D92A /* AppleIPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIPhone.h; sourceTree = "<group>"; };
+		28E6AD021EFB2D3F00A7D92A /* AppleIPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleIPhone.m; sourceTree = "<group>"; };
+		28E6AD041EFB2DDC00A7D92A /* AppleIPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIPad.h; sourceTree = "<group>"; };
+		28E6AD051EFB2DDC00A7D92A /* AppleIPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleIPad.m; sourceTree = "<group>"; };
+		28E6AD071EFB2E6400A7D92A /* ChinaPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaPad.h; sourceTree = "<group>"; };
+		28E6AD081EFB2E6400A7D92A /* ChinaPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaPad.m; sourceTree = "<group>"; };
+		28E6AD0A1EFB2ED600A7D92A /* ChinaPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaPhone.h; sourceTree = "<group>"; };
+		28E6AD0B1EFB2ED600A7D92A /* ChinaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaPhone.m; sourceTree = "<group>"; };
+		28E6AD0D1EFB2F2600A7D92A /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		28E6AD0E1EFB2F2600A7D92A /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		28E6AD101EFB303600A7D92A /* ChinaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaFactory.h; sourceTree = "<group>"; };
+		28E6AD111EFB303600A7D92A /* ChinaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,24 @@
 			children = (
 				28E6ACE41EFB2B4A00A7D92A /* AppDelegate.h */,
 				28E6ACE51EFB2B4A00A7D92A /* AppDelegate.m */,
+				28E6ACF81EFB2B6B00A7D92A /* IPhoneFactory.h */,
+				28E6ACF91EFB2B6B00A7D92A /* IPhoneFactory.m */,
+				28E6ACFB1EFB2B9F00A7D92A /* GenericIPad.h */,
+				28E6ACFC1EFB2B9F00A7D92A /* GenericIPad.m */,
+				28E6ACFE1EFB2C0800A7D92A /* GenericIPhone.h */,
+				28E6ACFF1EFB2C0800A7D92A /* GenericIPhone.m */,
+				28E6AD011EFB2D3F00A7D92A /* AppleIPhone.h */,
+				28E6AD021EFB2D3F00A7D92A /* AppleIPhone.m */,
+				28E6AD041EFB2DDC00A7D92A /* AppleIPad.h */,
+				28E6AD051EFB2DDC00A7D92A /* AppleIPad.m */,
+				28E6AD071EFB2E6400A7D92A /* ChinaPad.h */,
+				28E6AD081EFB2E6400A7D92A /* ChinaPad.m */,
+				28E6AD0A1EFB2ED600A7D92A /* ChinaPhone.h */,
+				28E6AD0B1EFB2ED600A7D92A /* ChinaPhone.m */,
+				28E6AD0D1EFB2F2600A7D92A /* AppleFactory.h */,
+				28E6AD0E1EFB2F2600A7D92A /* AppleFactory.m */,
+				28E6AD101EFB303600A7D92A /* ChinaFactory.h */,
+				28E6AD111EFB303600A7D92A /* ChinaFactory.m */,
 				28E6ACE71EFB2B4A00A7D92A /* ViewController.h */,
 				28E6ACE81EFB2B4A00A7D92A /* ViewController.m */,
 				28E6ACEA1EFB2B4A00A7D92A /* Main.storyboard */,
@@ -151,9 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E6AD0F1EFB2F2600A7D92A /* AppleFactory.m in Sources */,
+				28E6AD091EFB2E6400A7D92A /* ChinaPad.m in Sources */,
+				28E6ACFD1EFB2B9F00A7D92A /* GenericIPad.m in Sources */,
 				28E6ACE91EFB2B4A00A7D92A /* ViewController.m in Sources */,
+				28E6AD001EFB2C0800A7D92A /* GenericIPhone.m in Sources */,
+				28E6ACFA1EFB2B6B00A7D92A /* IPhoneFactory.m in Sources */,
 				28E6ACE61EFB2B4A00A7D92A /* AppDelegate.m in Sources */,
 				28E6ACE31EFB2B4A00A7D92A /* main.m in Sources */,
+				28E6AD121EFB303600A7D92A /* ChinaFactory.m in Sources */,
+				28E6AD061EFB2DDC00A7D92A /* AppleIPad.m in Sources */,
+				28E6AD0C1EFB2ED600A7D92A /* ChinaPhone.m in Sources */,
+				28E6AD031EFB2D3F00A7D92A /* AppleIPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
